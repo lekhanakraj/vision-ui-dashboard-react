@@ -24,11 +24,11 @@
 export default {
   // Vision UI Colors
   background: {
-    default: "#f8f9fa",
+    default: "#faf8f9",
   },
 
   sidenav: {
-    button: "#1a1f37",
+    button: "#fa949a",
   },
 
   text: {

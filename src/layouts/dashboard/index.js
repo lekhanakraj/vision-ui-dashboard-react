@@ -32,7 +32,7 @@ import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCard";
 import linearGradient from "assets/theme/functions/linearGradient";
-
+import FeaturedModels from '../../examples/FeaturedModels/FeaturedModels';
 // Vision UI Dashboard React base styles
 import typography from "assets/theme/base/typography";
 import colors from "assets/theme/base/colors";
@@ -67,6 +67,11 @@ function Dashboard() {
   return (
     <DashboardLayout>
       <DashboardNavbar />
+      <VuiBox mb={3}>
+          <Grid container spacing="18px">
+            <FeaturedModels/>
+          </Grid>
+        </VuiBox>
       <VuiBox py={3}>
         <VuiBox mb={3}>
           <Grid container spacing={3}>
